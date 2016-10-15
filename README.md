@@ -1,26 +1,13 @@
-# Docker Compose PHP+MYSQL on OSX
+# Docker Compose para o projeto Framework Maestro
 
-This setup is great for writing quick apps in PHP from an OSX machine. It uses Virtualbox and machine to create the actual environment and then uses compose to setup the application services
+Configuração simples para executar projetos utilizando o [Framework Maestro.](https://github.com/frameworkmaestro/maestro).
 
+Abaixo seguem etapas paranconfiguração do mesmo:
 
-### Install docker, compose, and machine
+### Instale o docker e docker-compose
 
-```
-brew update
-brew install docker docker-compose docker-machine
-```
-
-
-### InstallVirtualbox
-[Download Virtualbox](https://www.virtualbox.org/wiki/Downloads)
-
-### Setup docker environment
-
-```
-docker-machine create -d virtualbox dev
-docker-machine start dev
-eval $(docker-machine env dev)
-```
+1-[Doker](https://docker.github.io/engine/installation/)
+2-[Doker Compose](https://docs.docker.com/compose/install/)
 
 ### Build & Run!
 
